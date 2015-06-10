@@ -1,0 +1,172 @@
+
+
+
+@media all and (max-width: 1200px){
+
+	#about,
+	#contacts{
+		width: 90%;
+	}
+
+	#contacts{
+		margin-left:0;
+		margin-top: 2%
+	}
+
+	#about p{
+		font-size: 1em;
+	}
+
+#contacts > a > div > h1 > img {
+	width:35px;
+	padding-left: 20px;
+}
+#contacts > a > div {
+	display: inline-block;
+}
+}
+
+
+
+
+
+
+@media all and (max-width: 824px){
+	.navigation div {
+		float:none;
+
+	}
+	.navigation {
+		text-align: center;
+	}
+
+	.navigation ul {
+		display: inline-block;
+		float: none;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		position: relative;
+		margin-left: 0;
+		padding-left: 0px;
+		min-width: 480px;
+	}
+
+	header > div > nav > div{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	header{
+		height:90px;
+	}
+	#stripe > h1{
+		font-size: 2.3em;
+	}
+
+	#stripe > p {
+		font-size: 1.5em;
+	}
+	#table p {
+		font-size: 12pt;
+	}
+
+	#table h3{
+		font-size: 12pt	 ;
+	}
+}
+
+
+
+
+
+
+@media all and (max-width: 650px){
+
+	footer p{
+		float:none;
+		text-align: center;
+	}
+
+	#sn{
+		text-align: center;
+		float: none;
+		margin-top: 0px; 
+		margin-right: 0px;
+	}
+}
+
+@media all and (max-width: 642px){
+	#table>div {
+		text-align: left;
+	}
+}
+
+@media all and (max-width: 1200px){
+	#container {
+		margin-top: 5%;
+	}
+
+	#contacts {
+		text-align: left;
+	}
+	#contacts p {
+		display: inline-block;
+	}
+
+	#contacts h1{
+		margin: 0px;
+		font-size: 25pt;
+	}
+}
+
+@media only screen and (orientation : portrait) {
+	#Portfolio > div> a > img,
+	#imageGallery > li{
+		width:	35%;
+	}	
+
+	#table {
+		padding-left: 5%;
+	}
+
+	#Photography h1{
+		padding-top: 50px;
+	}
+
+	#about p {
+		font-size: 12pt;
+	}
+	#about h1,
+	#contacts h1{
+		font-size: 22pt;
+		margin-bottom: 0;
+	}
+
+	#contacts a h1 img {
+		width:35px;
+	}
+	#contacts a h1{
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+	#container {
+		margin-top:35px;
+		min-width: 450px;
+	}
+
+	footer p {
+		display: none;
+	}
+	footer {
+		min-height: 20px;
+	}
+	#contacts img {
+		width:20px;
+	}
+	#contacts p {
+		margin: 10px;
+	}
+	#contacts p a img {
+		margin-bottom: -5px;
+	}
+}
